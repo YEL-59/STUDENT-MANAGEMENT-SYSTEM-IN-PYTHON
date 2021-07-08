@@ -15,7 +15,7 @@ def manageStudent():  # Function For The Student Management System
     y = "=" * 28
     global bye  # Making Bye As Super Global Variable
     # Will Print GoodBye Message
-    bye = "\n {}\n# {} #\n# ===> Brought To You By <===  #\n# ===> code-projects.org <===  #\n# {} #\n {}".format(
+    bye = "\n {}\n# {} #\n# ===> Brought To You By <===  #\n# ===>  <===  #\n# {} #\n {}".format(
         x, y, y, x)
 
     # Printing Welcome Message And options For This Program
@@ -86,7 +86,7 @@ Enter 4 : To Remove Student
         print("Please Enter Valid Option")  # Error Message
 
 
-# brought to you by code-projects.org
+
 manageStudent()
 
 
